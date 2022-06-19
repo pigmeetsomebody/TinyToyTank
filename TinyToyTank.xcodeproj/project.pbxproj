@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		192FC6CE273665F5001DD3D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192FC6CD273665F5001DD3D2 /* AppDelegate.swift */; };
 		192FC6D0273665F5001DD3D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192FC6CF273665F5001DD3D2 /* ViewController.swift */; };
-		192FC6D2273665F5001DD3D2 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 192FC6D1273665F5001DD3D2 /* Experience.rcproject */; };
 		192FC6D5273665F5001DD3D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192FC6D3273665F5001DD3D2 /* Main.storyboard */; };
 		192FC6D7273665F8001DD3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192FC6D6273665F8001DD3D2 /* Assets.xcassets */; };
 		192FC6DA273665F8001DD3D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192FC6D8273665F8001DD3D2 /* LaunchScreen.storyboard */; };
 		192FC6E4273665F8001DD3D2 /* TinyToyTankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192FC6E3273665F8001DD3D2 /* TinyToyTankTests.swift */; };
 		192FC6EE273665F8001DD3D2 /* TinyToyTankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192FC6ED273665F8001DD3D2 /* TinyToyTankUITests.swift */; };
 		192FC6F0273665F8001DD3D2 /* TinyToyTankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192FC6EF273665F8001DD3D2 /* TinyToyTankUITestsLaunchTests.swift */; };
+		193E1E392736BCF600FB6A52 /* TinyToyTank.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 193E1E382736BCF500FB6A52 /* TinyToyTank.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		192FC6CA273665F5001DD3D2 /* TinyToyTank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyToyTank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		192FC6CD273665F5001DD3D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		192FC6CF273665F5001DD3D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		192FC6D1273665F5001DD3D2 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		192FC6D4273665F5001DD3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		192FC6D6273665F8001DD3D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		192FC6D9273665F8001DD3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		192FC6E9273665F8001DD3D2 /* TinyToyTankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyToyTankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		192FC6ED273665F8001DD3D2 /* TinyToyTankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyToyTankUITests.swift; sourceTree = "<group>"; };
 		192FC6EF273665F8001DD3D2 /* TinyToyTankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyToyTankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		193E1E382736BCF500FB6A52 /* TinyToyTank.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = TinyToyTank.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 			children = (
 				192FC6CD273665F5001DD3D2 /* AppDelegate.swift */,
 				192FC6CF273665F5001DD3D2 /* ViewController.swift */,
-				192FC6D1273665F5001DD3D2 /* Experience.rcproject */,
 				192FC6D3273665F5001DD3D2 /* Main.storyboard */,
 				192FC6D6273665F8001DD3D2 /* Assets.xcassets */,
+				193E1E382736BCF500FB6A52 /* TinyToyTank.rcproject */,
 				192FC6D8273665F8001DD3D2 /* LaunchScreen.storyboard */,
 			);
 			path = TinyToyTank;
@@ -257,8 +257,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				192FC6D0273665F5001DD3D2 /* ViewController.swift in Sources */,
+				193E1E392736BCF600FB6A52 /* TinyToyTank.rcproject in Sources */,
 				192FC6CE273665F5001DD3D2 /* AppDelegate.swift in Sources */,
-				192FC6D2273665F5001DD3D2 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8DHTB2U6AB;
@@ -447,13 +448,15 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.TinyToyTank;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.ObjectDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8DHTB2U6AB;
@@ -477,13 +481,15 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.TinyToyTank;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.ObjectDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
